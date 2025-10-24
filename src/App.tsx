@@ -1,12 +1,12 @@
 import "./App.css";
-
+import Hero from "./components/Hero.tsx";
+import Header from "./components/Header.tsx";
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900">
-      <h1 className="text-4xl font-bold text-white">
-        ¡Hola, este es mi portafolio con React + Tailwind + TS!
-      </h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+    </>
   );
 }
 

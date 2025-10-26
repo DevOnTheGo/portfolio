@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section className="min-h-screen flex items-center justify-center text-white px-6 md:px-16 py-20 bg-black relative overflow-hidden">
+    <section
+      id="sobremí"
+      className="min-h-screen flex items-center justify-center text-white px-6 md:px-16 py-20 bg-black relative overflow-hidden"
+    >
       <div className="max-w-5xl relative z-10">
         {/* Header with decorative line */}
         <div className="flex items-center gap-4 mb-16">

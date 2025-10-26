@@ -1,4 +1,3 @@
-
 // Photo Profile
 import HeroImage from "../assets/img/hero-image.jpg";
 // Icons
@@ -6,7 +5,10 @@ import { GithubIcon, LinkedinIcon, GmailIcon } from "../icons/Icons.tsx";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-linear-to-b from-blue-950 to-black text-white px-6 md:px-16 py-12">
+    <section
+      id="inicio"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-linear-to-b from-blue-950 to-black text-white px-6 md:px-16 py-12"
+    >
       {/* Photo Profile */}
       <img
         src={HeroImage}

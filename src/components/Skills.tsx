@@ -17,7 +17,10 @@ import {
 
 export default function Skills() {
   return (
-    <section className="min-h-screen bg-black p-6 flex items-center">
+    <section
+      id="tecnologías"
+      className="min-h-screen bg-black p-6 flex items-center"
+    >
       <div className="w-full max-w-5xl mx-auto">
         {/* Title of section skills */}
         <div className="flex items-center gap-4 mb-16">

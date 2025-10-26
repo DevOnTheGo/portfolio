@@ -9,7 +9,7 @@ export default function Header() {
       {/* Navigation */}
       <nav>
         <ul className="flex gap-6 text-base md:text-lg font-medium">
-          {["Inicio", "Proyectos", "Sobre mí", "Contacto"].map((item) => (
+          {["Inicio", "Sobre mí", "Tecnologías"].map((item) => (
             <li
               key={item}
               className="relative group cursor-pointer hover:text-blue-400 transition duration-300"

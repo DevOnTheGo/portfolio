@@ -9,7 +9,7 @@ export default function Skills() {
         {/* Title of section skills */}
         <div className="flex items-center gap-4 mb-16">
           <div className="flex-1 h-px bg-linear-to-r from-transparent via-blue-500 to-transparent"></div>
-          <h2 className="text-5xl font-semibold bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="min-h-14 text-5xl font-semibold bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
             Tecnologías
           </h2>
           <div className="flex-1 h-px bg-linear-to-r from-transparent via-blue-500 to-transparent"></div>
